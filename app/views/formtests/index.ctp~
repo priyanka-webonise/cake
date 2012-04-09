@@ -1,0 +1,8 @@
+<?php echo $this->Form->create('formtests', array('type' => 'POST','action'=>'add')); 
+echo $this->Form->input('name', array('label' => 'Name','name'=>'name'));
+echo $this->Form->input('emailId');
+
+
+?>
+<?php echo $this->Form->end('Finish'); ?>
+<?php echo $this->Form->end(); ?>

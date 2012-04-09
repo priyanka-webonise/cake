@@ -1,0 +1,15 @@
+    <?php
+    class NewsController extends AppController
+ {
+    
+
+function index()
+{
+	echo "Hello World!!!";
+Configure::read('debug');
+
+}
+    }
+    ?>
+
+

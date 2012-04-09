@@ -1,0 +1,18 @@
+    <?php
+    class NewsController extends AppController
+ {
+    function latest() {
+    $this->_findNewArticles();
+  }
+    function _findNewArticles() 
+{
+   
+  }
+
+function index()
+{
+	echo "Hello World!!!";
+}
+    }
+    ?>
+
